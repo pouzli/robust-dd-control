@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from numpy.typing import NDArray
 
+from .utils import resolve_path
+
 Array = NDArray[np.float64]
 
 
@@ -25,8 +27,13 @@ def set_plot_style() -> None:
 
 
 def save_figure(path: str | Path) -> None:
-    """Save current figure with tight layout and 300 DPI."""
-    output = Path(path)
+    """Save current figure with tight layout and 300 DPI.
+
+    Relative paths are resolved against the project root so that notebooks
+    always write outputs to the `results/` directory in the repository root.
+    """
+
+    output = resolve_path(path)
     output.parent.mkdir(parents=True, exist_ok=True)
     plt.tight_layout()
     plt.savefig(output, dpi=300)
