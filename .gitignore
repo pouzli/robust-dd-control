@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tooling
+.coverage
+htmlcov/
+.cache/
+
+# Data caches
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated binary artifacts (keep directory skeleton only)
+results/**/figures/*.png
+results/**/figures/*.jpg
+results/**/figures/*.jpeg
+results/**/figures/*.gif
+results/**/figures/*.pdf
+!results/**/figures/.gitkeep

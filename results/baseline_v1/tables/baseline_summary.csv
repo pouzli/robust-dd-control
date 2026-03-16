@@ -1,0 +1,2 @@
+dictionary_name,rmse,mae,epsilon_q95,open_loop_stable,open_loop_ultimate_radius,mild_ultimate_radius,medium_ultimate_radius,aggressive_ultimate_radius
+quadratic_full,2.3044025343158163e-16,1.8749715271145356e-16,6.148566190344912e-16,True,0.0011432691760841923,6.626431319048395e-07,8.527802094307813e-08,1.2804737514783321e-08
