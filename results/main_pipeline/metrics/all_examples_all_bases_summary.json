@@ -1,0 +1,152 @@
+[
+  {
+    "example": "linear_damped",
+    "basis": "linear",
+    "theta": "x1 + x2",
+    "epsilon": 5.4672143489065705e-16,
+    "mean_residual_norm": 8.69230830707501e-17,
+    "max_residual_norm": 1.2947314098277875e-15,
+    "q95_residual_norm": 5.4672143489065705e-16,
+    "is_hurwitz": true
+  },
+  {
+    "example": "linear_damped",
+    "basis": "quadratic",
+    "theta": "x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 4.47545209131181e-16,
+    "mean_residual_norm": 9.536142726751769e-17,
+    "max_residual_norm": 1.3506446028928519e-15,
+    "q95_residual_norm": 4.47545209131181e-16,
+    "is_hurwitz": true
+  },
+  {
+    "example": "linear_damped",
+    "basis": "quadratic_with_constant",
+    "theta": "1 + x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 2.0014830212433605e-16,
+    "mean_residual_norm": 5.016795381134203e-17,
+    "max_residual_norm": 1.3506446028928519e-15,
+    "q95_residual_norm": 2.0014830212433605e-16,
+    "is_hurwitz": true
+  },
+  {
+    "example": "quadratic_oscillator",
+    "basis": "linear",
+    "theta": "x1 + x2",
+    "epsilon": 0.20492804257750977,
+    "mean_residual_norm": 0.03734432371923233,
+    "max_residual_norm": 0.4401307124059821,
+    "q95_residual_norm": 0.20492804257750977,
+    "is_hurwitz": true
+  },
+  {
+    "example": "quadratic_oscillator",
+    "basis": "quadratic",
+    "theta": "x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 9.442575902687382e-16,
+    "mean_residual_norm": 2.860731008832556e-16,
+    "max_residual_norm": 1.897149936107019e-15,
+    "q95_residual_norm": 9.442575902687382e-16,
+    "is_hurwitz": true
+  },
+  {
+    "example": "quadratic_oscillator",
+    "basis": "quadratic_with_constant",
+    "theta": "1 + x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 8.671119018262734e-16,
+    "mean_residual_norm": 3.710226981903644e-16,
+    "max_residual_norm": 1.88411095042053e-15,
+    "q95_residual_norm": 8.671119018262734e-16,
+    "is_hurwitz": true
+  },
+  {
+    "example": "van_der_pol",
+    "basis": "linear",
+    "theta": "x1 + x2",
+    "epsilon": 2.510692288668966,
+    "mean_residual_norm": 1.1152112496992994,
+    "max_residual_norm": 3.0382760296428604,
+    "q95_residual_norm": 2.510692288668966,
+    "is_hurwitz": false
+  },
+  {
+    "example": "van_der_pol",
+    "basis": "quadratic",
+    "theta": "x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 2.5064789044151596,
+    "mean_residual_norm": 1.1149498181550572,
+    "max_residual_norm": 3.058322844157807,
+    "q95_residual_norm": 2.5064789044151596,
+    "is_hurwitz": false
+  },
+  {
+    "example": "van_der_pol",
+    "basis": "quadratic_with_constant",
+    "theta": "1 + x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 2.5073315983788884,
+    "mean_residual_norm": 1.114945160346908,
+    "max_residual_norm": 3.062630984735275,
+    "q95_residual_norm": 2.5073315983788884,
+    "is_hurwitz": false
+  },
+  {
+    "example": "cross_coupled",
+    "basis": "linear",
+    "theta": "x1 + x2",
+    "epsilon": 0.2962957884991179,
+    "mean_residual_norm": 0.045480765034251934,
+    "max_residual_norm": 1.672916477433547,
+    "q95_residual_norm": 0.2962957884991179,
+    "is_hurwitz": true
+  },
+  {
+    "example": "cross_coupled",
+    "basis": "quadratic",
+    "theta": "x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 9.036560719766055e-16,
+    "mean_residual_norm": 1.386333863834255e-16,
+    "max_residual_norm": 3.0927234722497852e-15,
+    "q95_residual_norm": 9.036560719766055e-16,
+    "is_hurwitz": true
+  },
+  {
+    "example": "cross_coupled",
+    "basis": "quadratic_with_constant",
+    "theta": "1 + x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 4.965068306494546e-16,
+    "mean_residual_norm": 1.6090893963953958e-16,
+    "max_residual_norm": 1.7342238036525468e-15,
+    "q95_residual_norm": 4.965068306494546e-16,
+    "is_hurwitz": true
+  },
+  {
+    "example": "saturated",
+    "basis": "linear",
+    "theta": "x1 + x2",
+    "epsilon": 0.02741482264028332,
+    "mean_residual_norm": 0.005658272565945421,
+    "max_residual_norm": 0.15419125001272138,
+    "q95_residual_norm": 0.02741482264028332,
+    "is_hurwitz": true
+  },
+  {
+    "example": "saturated",
+    "basis": "quadratic",
+    "theta": "x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 0.02610825845937879,
+    "mean_residual_norm": 0.005526321182046689,
+    "max_residual_norm": 0.13133039858576812,
+    "q95_residual_norm": 0.02610825845937879,
+    "is_hurwitz": true
+  },
+  {
+    "example": "saturated",
+    "basis": "quadratic_with_constant",
+    "theta": "1 + x1 + x2 + x1^2 + x2^2 + x1*x2",
+    "epsilon": 0.026196379759327253,
+    "mean_residual_norm": 0.0058390807986783,
+    "max_residual_norm": 0.13067332891238004,
+    "q95_residual_norm": 0.026196379759327253,
+    "is_hurwitz": true
+  }
+]

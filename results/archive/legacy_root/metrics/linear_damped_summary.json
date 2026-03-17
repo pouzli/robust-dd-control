@@ -1,0 +1,13 @@
+{
+  "example": "linear_damped",
+  "epsilon": 2.0014830212433605e-16,
+  "residual_mean": 5.016795381134203e-17,
+  "residual_std": 1.0972041863337431e-16,
+  "residual_max": 1.3506446028928519e-15,
+  "residual_q95": 2.0014830212433605e-16,
+  "jacobian_eigs_real": [
+    -1.0,
+    -1.0
+  ],
+  "is_hurwitz": true
+}

@@ -146,7 +146,7 @@ A_{cl}=A+BK.
 
 ## 6. Основные графики и интерпретация
 
-В `results/figures/` сохраняются ключевые иллюстрации:
+В legacy-пайплайне ключевые иллюстрации сохранялись в `results/archive/legacy_root/figures/`:
 - `phase_true.png`: фазовые траектории истинной системы;
 - `phase_identified.png`: фазовые траектории модели \(\hat f\);
 - `residual_hist.png`: гистограмма \(\|r\|\) с отмеченным \(\varepsilon\);

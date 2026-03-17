@@ -1,0 +1,13 @@
+{
+  "example": "van_der_pol",
+  "epsilon": 2.5073315983788884,
+  "residual_mean": 1.114945160346908,
+  "residual_std": 0.7225377029333339,
+  "residual_max": 3.062630984735275,
+  "residual_q95": 2.5073315983788884,
+  "jacobian_eigs_real": [
+    0.020296945006659357,
+    0.020296945006659357
+  ],
+  "is_hurwitz": false
+}

@@ -58,6 +58,45 @@ def plot_residual_histogram(norms: Array, epsilon: float, bins: int = 30) -> Non
     plt.title("Residual norms and deterministic uncertainty bound")
 
 
+def plot_residual_error_distributions(residuals: Array, epsilon: float, bins: int = 30) -> None:
+    """Plot residual error distributions for each component, norm, and empirical CDF."""
+    if residuals.ndim != 2:
+        raise ValueError("residuals must be a 2D array of shape (n_samples, n_components)")
+
+    norms = np.linalg.norm(residuals, axis=1)
+    components = residuals.shape[1]
+    fig, axes = plt.subplots(2, 2, figsize=(10, 8))
+    axes = axes.ravel()
+
+    for idx in range(min(components, 2)):
+        axes[idx].hist(residuals[:, idx], bins=bins, alpha=0.8, color="steelblue", edgecolor="white")
+        axes[idx].axvline(0.0, color="black", linestyle=":", linewidth=1.5)
+        axes[idx].set_xlabel(f"r{idx + 1}")
+        axes[idx].set_ylabel("Count")
+        axes[idx].set_title(f"Residual component r{idx + 1}")
+
+    if components < 2:
+        axes[1].axis("off")
+
+    axes[2].hist(norms, bins=bins, alpha=0.8, color="darkorange", edgecolor="white")
+    axes[2].axvline(epsilon, color="crimson", linestyle="--", linewidth=2, label=f"epsilon={epsilon:.3f}")
+    axes[2].set_xlabel("||r||")
+    axes[2].set_ylabel("Count")
+    axes[2].set_title("Residual norm distribution")
+    axes[2].legend()
+
+    sorted_norms = np.sort(norms)
+    cdf = np.arange(1, len(sorted_norms) + 1, dtype=float) / len(sorted_norms)
+    axes[3].plot(sorted_norms, cdf, color="seagreen", linewidth=2)
+    axes[3].axvline(epsilon, color="crimson", linestyle="--", linewidth=2, label=f"epsilon={epsilon:.3f}")
+    axes[3].set_xlabel("||r||")
+    axes[3].set_ylabel("Empirical CDF")
+    axes[3].set_title("Residual norm empirical CDF")
+    axes[3].legend()
+
+    fig.suptitle("Residual error distributions")
+
+
 def plot_lyapunov_contours(xx: Array, yy: Array, vv: Array, levels: int = 15) -> None:
     """Contour plot for Lyapunov level sets."""
     contours = plt.contour(xx, yy, vv, levels=levels, cmap="viridis")

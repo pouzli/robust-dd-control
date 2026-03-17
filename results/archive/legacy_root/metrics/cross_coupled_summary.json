@@ -1,0 +1,13 @@
+{
+  "example": "cross_coupled",
+  "epsilon": 4.965068306494546e-16,
+  "residual_mean": 1.6090893963953958e-16,
+  "residual_std": 1.755313699614821e-16,
+  "residual_max": 1.7342238036525468e-15,
+  "residual_q95": 4.965068306494546e-16,
+  "jacobian_eigs_real": [
+    -0.9999999999999993,
+    -2.0000000000000004
+  ],
+  "is_hurwitz": true
+}

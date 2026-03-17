@@ -1,0 +1,13 @@
+{
+  "example": "quadratic_oscillator",
+  "epsilon": 8.671119018262734e-16,
+  "residual_mean": 3.710226981903644e-16,
+  "residual_std": 2.8731154836687806e-16,
+  "residual_max": 1.88411095042053e-15,
+  "residual_q95": 8.671119018262734e-16,
+  "jacobian_eigs_real": [
+    -0.2500000000000004,
+    -0.2500000000000004
+  ],
+  "is_hurwitz": true
+}
