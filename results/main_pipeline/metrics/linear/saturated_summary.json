@@ -22,6 +22,12 @@
     -1.0000000000000122
   ],
   "is_hurwitz": true,
+  "true_ultimate_radius_estimate": 0.0026800383291297604,
+  "identified_ultimate_radius_estimate": 0.0025632443097429796,
+  "mean_final_radius": 0.010312723111996075,
+  "mean_tail_radius": 0.007436076410092671,
+  "max_tail_radius": 0.011856691786019996,
+  "ultimate_radius_estimate": 0.011856654331068427,
   "coefficients": [
     [
       -0.9858469036954549,

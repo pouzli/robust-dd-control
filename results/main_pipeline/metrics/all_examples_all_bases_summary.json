@@ -7,6 +7,10 @@
     "mean_residual_norm": 8.69230830707501e-17,
     "max_residual_norm": 1.2947314098277875e-15,
     "q95_residual_norm": 5.4672143489065705e-16,
+    "true_ultimate_radius_estimate": 0.0027252155591133086,
+    "identified_ultimate_radius_estimate": 0.002725215559113262,
+    "mean_final_radius": 2.270543749061557e-07,
+    "ultimate_radius_estimate": 7.0528074087629796e-06,
     "is_hurwitz": true
   },
   {
@@ -17,6 +21,10 @@
     "mean_residual_norm": 9.536142726751769e-17,
     "max_residual_norm": 1.3506446028928519e-15,
     "q95_residual_norm": 4.47545209131181e-16,
+    "true_ultimate_radius_estimate": 0.0027252155591133086,
+    "identified_ultimate_radius_estimate": 0.0027252155591132804,
+    "mean_final_radius": 2.270543749080292e-07,
+    "ultimate_radius_estimate": 7.052807408771056e-06,
     "is_hurwitz": true
   },
   {
@@ -27,6 +35,10 @@
     "mean_residual_norm": 5.016795381134203e-17,
     "max_residual_norm": 1.3506446028928519e-15,
     "q95_residual_norm": 2.0014830212433605e-16,
+    "true_ultimate_radius_estimate": 0.0027252155591133086,
+    "identified_ultimate_radius_estimate": 0.002725215559113281,
+    "mean_final_radius": 2.2705437491199868e-07,
+    "ultimate_radius_estimate": 7.0528074087899525e-06,
     "is_hurwitz": true
   },
   {
@@ -37,6 +49,10 @@
     "mean_residual_norm": 0.03734432371923233,
     "max_residual_norm": 0.4401307124059821,
     "q95_residual_norm": 0.20492804257750977,
+    "true_ultimate_radius_estimate": 0.24850543912066436,
+    "identified_ultimate_radius_estimate": 0.254799858724671,
+    "mean_final_radius": 0.09784622231999092,
+    "ultimate_radius_estimate": 0.12741506957531923,
     "is_hurwitz": true
   },
   {
@@ -47,6 +63,10 @@
     "mean_residual_norm": 2.860731008832556e-16,
     "max_residual_norm": 1.897149936107019e-15,
     "q95_residual_norm": 9.442575902687382e-16,
+    "true_ultimate_radius_estimate": 0.24850543912066436,
+    "identified_ultimate_radius_estimate": 0.24850543912066464,
+    "mean_final_radius": 0.0020038517668259344,
+    "ultimate_radius_estimate": 0.012542546615503209,
     "is_hurwitz": true
   },
   {
@@ -57,6 +77,10 @@
     "mean_residual_norm": 3.710226981903644e-16,
     "max_residual_norm": 1.88411095042053e-15,
     "q95_residual_norm": 8.671119018262734e-16,
+    "true_ultimate_radius_estimate": 0.24850543912066436,
+    "identified_ultimate_radius_estimate": 0.24850543912066325,
+    "mean_final_radius": 0.0020038517668259314,
+    "ultimate_radius_estimate": 0.012542546615503192,
     "is_hurwitz": true
   },
   {
@@ -67,6 +91,10 @@
     "mean_residual_norm": 1.1152112496992994,
     "max_residual_norm": 3.0382760296428604,
     "q95_residual_norm": 2.510692288668966,
+    "true_ultimate_radius_estimate": 2.829507959274808,
+    "identified_ultimate_radius_estimate": 1.72677953306975,
+    "mean_final_radius": 2.5595346289648315,
+    "ultimate_radius_estimate": 2.8124821723972033,
     "is_hurwitz": false
   },
   {
@@ -77,6 +105,10 @@
     "mean_residual_norm": 1.1149498181550572,
     "max_residual_norm": 3.058322844157807,
     "q95_residual_norm": 2.5064789044151596,
+    "true_ultimate_radius_estimate": 2.829507959274808,
+    "identified_ultimate_radius_estimate": 1.7426741481628731,
+    "mean_final_radius": 2.5567344826005374,
+    "ultimate_radius_estimate": 2.8072724875171873,
     "is_hurwitz": false
   },
   {
@@ -87,6 +119,10 @@
     "mean_residual_norm": 1.114945160346908,
     "max_residual_norm": 3.062630984735275,
     "q95_residual_norm": 2.5073315983788884,
+    "true_ultimate_radius_estimate": 2.829507959274808,
+    "identified_ultimate_radius_estimate": 1.741089358620938,
+    "mean_final_radius": 2.55730206965544,
+    "ultimate_radius_estimate": 2.8083183773737477,
     "is_hurwitz": false
   },
   {
@@ -97,6 +133,10 @@
     "mean_residual_norm": 0.045480765034251934,
     "max_residual_norm": 1.672916477433547,
     "q95_residual_norm": 0.2962957884991179,
+    "true_ultimate_radius_estimate": 0.0033648318165492384,
+    "identified_ultimate_radius_estimate": 0.009897383884271098,
+    "mean_final_radius": 0.08955016500154063,
+    "ultimate_radius_estimate": 0.09764772221485948,
     "is_hurwitz": true
   },
   {
@@ -107,6 +147,10 @@
     "mean_residual_norm": 1.386333863834255e-16,
     "max_residual_norm": 3.0927234722497852e-15,
     "q95_residual_norm": 9.036560719766055e-16,
+    "true_ultimate_radius_estimate": 0.0033648318165492384,
+    "identified_ultimate_radius_estimate": 0.003364831816549257,
+    "mean_final_radius": 6.810131365682803e-10,
+    "ultimate_radius_estimate": 7.797502090879429e-08,
     "is_hurwitz": true
   },
   {
@@ -117,6 +161,10 @@
     "mean_residual_norm": 1.6090893963953958e-16,
     "max_residual_norm": 1.7342238036525468e-15,
     "q95_residual_norm": 4.965068306494546e-16,
+    "true_ultimate_radius_estimate": 0.0033648318165492384,
+    "identified_ultimate_radius_estimate": 0.003364831816549154,
+    "mean_final_radius": 6.81013129821894e-10,
+    "ultimate_radius_estimate": 7.797502092220242e-08,
     "is_hurwitz": true
   },
   {
@@ -127,6 +175,10 @@
     "mean_residual_norm": 0.005658272565945421,
     "max_residual_norm": 0.15419125001272138,
     "q95_residual_norm": 0.02741482264028332,
+    "true_ultimate_radius_estimate": 0.0026800383291297604,
+    "identified_ultimate_radius_estimate": 0.0025632443097429796,
+    "mean_final_radius": 0.010312723111996075,
+    "ultimate_radius_estimate": 0.011856654331068427,
     "is_hurwitz": true
   },
   {
@@ -137,6 +189,10 @@
     "mean_residual_norm": 0.005526321182046689,
     "max_residual_norm": 0.13133039858576812,
     "q95_residual_norm": 0.02610825845937879,
+    "true_ultimate_radius_estimate": 0.0026800383291297604,
+    "identified_ultimate_radius_estimate": 0.0025572165060799854,
+    "mean_final_radius": 0.009821237728172784,
+    "ultimate_radius_estimate": 0.011291592250443745,
     "is_hurwitz": true
   },
   {
@@ -147,6 +203,10 @@
     "mean_residual_norm": 0.0058390807986783,
     "max_residual_norm": 0.13067332891238004,
     "q95_residual_norm": 0.026196379759327253,
+    "true_ultimate_radius_estimate": 0.0026800383291297604,
+    "identified_ultimate_radius_estimate": 0.003215846777639526,
+    "mean_final_radius": 0.009854386033828213,
+    "ultimate_radius_estimate": 0.01132970314623312,
     "is_hurwitz": true
   }
 ]
